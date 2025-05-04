@@ -1,0 +1,65 @@
+{
+  "title": "5D1117DF-83E9-4F8C-8EED-D491B7B45DCF",
+  "important_topics": [
+    "Fraud prevention",
+    "Regulatory action",
+    "Consumer protection",
+    "Scam controls",
+    "Money mule management",
+    "Data sharing among financial institutions",
+    "Authorized push payment (APP) scams",
+    "The role of FFIEC guidance in shaping online security",
+    "The need for a multi-sector approach to combating scams (banks, telcos, digital platforms)",
+    "The psychological impact of scams on victims"
+  ],
+  "names": [
+    "Hayley Windham",
+    "Ken Paula"
+  ],
+  "companies": [
+    "Mufg Union bank",
+    "Consumer Financial Protection Bureau",
+    "Federal Reserve Comptroller",
+    "Treasury",
+    "FinCEN",
+    "Operation Shamrock",
+    "American Bankers Association",
+    "FS ISAC",
+    "NCFTA",
+    "Centerlink",
+    "Apple",
+    "Spotify",
+    "Meta",
+    "Google",
+    "Aspen Institute",
+    "Fiserv",
+    "Jack Henry",
+    "Q2",
+    "Verafin"
+  ],
+  "acronyms": [
+    "FFIEC",
+    "AML",
+    "BSA",
+    "FTC",
+    "FBI",
+    "IC3",
+    "Gen AI",
+    "Gaza",
+    "APP",
+    "PII"
+  ],
+  "fraud_tips": [
+    "Never respond to a text message unless it's from your contact list",
+    "On incoming phone calls, if it's not from someone on your contact list, let it go to voicemail and then listen to it, but do not pick it up.",
+    "Ignore messages where you want to be nice and help someone out who claims to have misdirected a message."
+  ],
+  "tactics": [
+    "Scammers heavily groom victims",
+    "Scammers use psychological manipulation",
+    "Scammers exploit emotional vulnerabilities",
+    "Scammers initiate authorized transactions by convincing the customer",
+    "Scammers use AI bots to interact with potential victims and obtain account information",
+    "Fraudsters are using GenAI to attack consumers."
+  ]
+}

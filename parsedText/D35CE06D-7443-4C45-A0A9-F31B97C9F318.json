@@ -1,0 +1,60 @@
+{
+  "title": "D35CE06D-7443-4C45-A0A9-F31B97C9F318",
+  "important_topics": [
+    "Payment Fraud",
+    "E-commerce fraud",
+    "Fintech Fraud",
+    "Professional Development",
+    "Career Transitions in Fraud",
+    "Importance of diverse experience in fraud teams",
+    "Identifying abnormal transactions",
+    "Card-not-present (CNP) fraud",
+    "Token fraud",
+    "Card-on-file fraud",
+    "Force capture fraud",
+    "Terminal compromise",
+    "The culture difference between traditional banking and fintech/e-commerce companies."
+  ],
+  "names": [
+    "Hayley Windham",
+    "Gil Rosenthal",
+    "Carice Hendrick",
+    "Andrew Austin",
+    "Sid Shah",
+    "Robbie Perry",
+    "PJ",
+    "Ronald"
+  ],
+  "companies": [
+    "Banking on Fraudology",
+    "Fraudology podcast",
+    "PayPal",
+    "Bluevine",
+    "Shopify",
+    "Silicon Valley Bank",
+    "Visa",
+    "Centerlink",
+    "Apple",
+    "Spotify",
+    "About Fraud"
+  ],
+  "acronyms": [
+    "CNP",
+    "MCC",
+    "E Comm"
+  ],
+  "fraud_tips": [
+    "Hire diverse teams with different backgrounds to gain broader perspectives on fraud schemes.",
+    "Bring in experts to educate teams on specific fraud types and emerging threats.",
+    "Focus on identifying abnormal patterns and spikes in transactions to detect potential fraud.",
+    "Reach out to acquirers and other parties in the payment network to gather more information about suspicious activity.",
+    "Encourage employees to interview elsewhere to check if they are fairly paid and valued."
+  ],
+  "tactics": [
+    "Using compromised terminals to conduct force capture transactions.",
+    "Exploiting closed cards for fraudulent transactions through force captures.",
+    "Downloading terminals with existing merchant ID.",
+    "Employees giving themselves or their family members refunds when there wasn't a corresponding sale",
+    "Processing credit cards for services that Visa doesn't allow cards for."
+  ]
+}

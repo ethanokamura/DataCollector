@@ -1,0 +1,52 @@
+{
+  "title": "2917D65F-E710-4E27-965D-0A3DE51CB720",
+  "important_topics": [
+    "Push Payment Fraud",
+    "Supporting Law Enforcement",
+    "Digital Identity Verification",
+    "Regulatory and Legal Considerations for Data Sharing",
+    "Focusing on Receiving Accounts and Mule Activity",
+    "Maintaining Trust in the Digital Economy"
+  ],
+  "names": [
+    "Hayley Windham",
+    "Denise Leonhard",
+    "Chris Ward",
+    "Noam Libnett",
+    "Devin Marsh",
+    "Aaron West",
+    "Karen Boyer",
+    "Kim Paula"
+  ],
+  "companies": [
+    "Truist",
+    "Zelle",
+    "Google",
+    "Nacha",
+    "Payments Dive",
+    "Banking Dive",
+    "Early Warning Services",
+    "Oliver Wyman",
+    "Salem",
+    "CenterLink",
+    "Apple",
+    "Spotify",
+    "Federal Reserve"
+  ],
+  "acronyms": [
+    "ACH"
+  ],
+  "fraud_tips": [
+    "Support law enforcement by providing detailed transaction data and advocating for more resources.",
+    "Implement robust authentication solutions like multi-factor authentication and behavioral biometrics.",
+    "Understand data sharing limitations under privacy laws and advocate for regulatory changes.",
+    "Enhance monitoring of accounts for unusual activity to detect potential mule accounts.",
+    "Focus on smart authentication, clear communication, and rapid response to maintain customer trust."
+  ],
+  "tactics": [
+    "Criminals posing as company representatives or law enforcement officials online to trick victims into sending payments.",
+    "Using mule accounts to receive and move money as part of a scam.",
+    "Exploiting the lag in data sharing among banks and other companies to continue fraudulent activities.",
+    "Organized criminal groups in other countries increasingly using technology to bolster their schemes."
+  ]
+}

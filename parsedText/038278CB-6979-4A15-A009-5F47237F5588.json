@@ -1,0 +1,40 @@
+{
+  "title": "038278CB-6979-4A15-A009-5F47237F5588",
+  "important_topics": [
+    "Funds availability rules and their failure to protect against modern fraud",
+    "The limitations of Regulation CC (REGCC) in the face of evolving fraud tactics",
+    "The importance of training and empowering frontline staff (tellers) to identify and escalate suspicious activity",
+    "Using tools like TCVs for real-time payee validation",
+    "Breaking down silos between fraud, compliance, and operations teams"
+  ],
+  "names": [
+    "Hayley Windham",
+    "David Miman",
+    "Tom Blue",
+    "Carice Hendrick"
+  ],
+  "companies": [
+    "Cintalink",
+    "Apple",
+    "Spotify"
+  ],
+  "acronyms": [
+    "TCVS",
+    "REGCC",
+    "IRS"
+  ],
+  "fraud_tips": [
+    "Use exception holds for reasonable cause to doubt collectability, with proper documentation.",
+    "Train frontline staff to recognize red flags and escalate suspicious activity.",
+    "Leverage tools like TCVs for real-time payee validation.",
+    "Consider opening a savings account instead of a transaction account for new customers depositing checks.",
+    "Break down silos between fraud, compliance, and operations teams to share information and trends."
+  ],
+  "tactics": [
+    "Coordinated refund scams across multiple institutions",
+    "Pig butchering scams",
+    "Remote deposit capture",
+    "Deepfake video calls to manipulate seniors",
+    "Forged endorsements on Treasury checks"
+  ]
+}

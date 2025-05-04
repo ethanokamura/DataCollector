@@ -1,0 +1,46 @@
+{
+  "title": "9FC8AE2F-53AE-47BB-9111-17837B83F2D7",
+  "important_topics": [
+    "The importance of mining an organization's unique data to develop tailored fraud strategies.",
+    "The value of scrappy data analysis and offline strategies in fraud detection.",
+    "Real-time digital signals and continuous monitoring for fraud prevention.",
+    "The need for a robust fraud ecosystem with collaboration between different teams.",
+    "Proactive root cause analysis and fraud deconstruction to understand missed fraud and improve strategies."
+  ],
+  "names": [
+    "Hayley Windham",
+    "Jen Martin",
+    "Nate"
+  ],
+  "companies": [
+    "Centerlink",
+    "Citizens Bank",
+    "SunTrust Bank",
+    "Mission Omega",
+    "ACFE",
+    "Apple",
+    "Spotify"
+  ],
+  "acronyms": [
+    "AML",
+    "ACH",
+     "IVR",
+    "SAS",
+    "SQL",
+    "P2P"
+  ],
+  "fraud_tips": [
+    "Mine your own data to identify risky patterns.",
+    "Leverage resources from various teams within your organization (e.g., marketing, AML, cyber, customer service).",
+    "Implement a continuous monitoring program to identify abnormal activities.",
+    "Focus on real-time digital signals for fraud prevention.",
+    "Conduct thorough root cause analysis to understand missed fraud and close gaps."
+  ],
+  "tactics": [
+    "Exploiting vulnerabilities in authentication tools, especially in-person.",
+    "Compromising driver's licenses and IDs.",
+    "Exploiting gaps in digital channels by shifting to call centers and in-person channels.",
+    "Taking advantage of temporary or less experienced staff on the front line.",
+    "Testing controls and quickly exploiting any weaknesses."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "89DB9367-7A84-44FD-AA6D-C701724F697E",
+  "important_topics": [
+    "Scammers intercepting calls intended for banks using malware (Fake Call)",
+    "Chase's legal battles against glitch exploiting fraudsters",
+    "A payment app (Zelle) being weaponized for harassment",
+    "The importance of granting permissions to apps cautiously",
+    "Financial institutions needing to address system vulnerabilities and potential misuse of payment platforms"
+  ],
+  "names": [
+    "Hailey Windham",
+    "Erin West",
+    "Mason",
+    "Frank McKenna",
+    "Dustin Francis Haxho"
+  ],
+  "companies": [
+    "Centerlink",
+    "Chase",
+    "JPMorgan Chase"
+  ],
+  "acronyms": [
+    "ATO"
+  ],
+  "fraud_tips": [
+    "Always use the official customer service number found directly on your bank's website or app.",
+    "Avoid search engines where scammers might plant fake listings.",
+    "Be cautious if you're asked for sensitive information, even if everything seems legit.",
+    "Review app permissions before granting them, ensuring they are relevant to the app's function.",
+    "Review privacy settings on payment apps and stay updated on new security features."
+  ],
+  "tactics": [
+    "Scammers intercepting calls to banks by spoofing the bank's number and using malware.",
+    "Fraudsters exploiting technical loopholes in financial systems to generate unauthorized transactions (glitching).",
+    "Using payment apps like Zelle to send unwanted payments with abusive messages for harassment.",
+    "Downloading apps that contain malware which hijacks phone calls.",
+    "Planting fake listings on search engines to redirect customers to scammer call centers."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "CE91E5BA-0C08-4A39-8EB8-73592EFF75A7",
+  "important_topics": [
+    "Bitfinex Bitcoin Heist",
+    "Cryptocurrency Theft",
+    "Fraud Prevention",
+    "Social Engineering",
+    "Synthetic Identity Fraud",
+    "Systemic Vulnerabilities",
+    "Money Laundering",
+    "International Collaboration",
+    "Employee and Customer Education"
+  ],
+  "names": [
+    "Hayley Windham",
+    "Aaron West",
+    "Chris Jetsky",
+    "Ari Redford",
+    "Ilya Lichtenstein",
+    "Heather Morgan",
+    "Razzlekhan",
+    "Anna Delvey",
+    "David Miman",
+    "Ken Paula"
+  ],
+  "companies": [
+    "Netflix",
+    "Bitfinex",
+    "TRM Labs",
+    "IRS",
+    "Centilink",
+    "Apple",
+    "Spotify"
+  ],
+  "acronyms": [
+    "AI",
+    "ATM",
+    "FBI"
+  ],
+  "fraud_tips": [
+    "Cross-check documents for anomalies or patterns.",
+    "Regular staff training on social engineering.",
+    "Implement AI-driven tools to cross-check histories and documents.",
+    "Diversify security layers with multiple vendors and internal checks.",
+    "Use real-time tools to monitor and trace unusual activity.",
+    "Maintain a zero-tolerance approach to fraud.",
+    "Educate employees and customers on fraud prevention."
+  ],
+  "tactics": [
+    "Social Engineering",
+    "Mixers to obscure Bitcoin flow",
+    "Using fake accounts",
+    "Reused fake documents with altered details during onboarding.",
+    "Exploiting flawed systems"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "9DCF05B2-5883-4E5F-80DE-2D8C0C6A8A3B",
+  "episode_summary": "This episode features Karen Boyer discussing the biggest fraud trends of 2024, challenges faced by fraud practitioners, and predictions for 2025, emphasizing the need for better scam prevention programs and industry-wide collaboration.",
+  "important_topics": [
+    "Fraud trends in 2024 (check fraud, scams, mail theft)",
+    "Operational challenges (staffing, technology, regulations)",
+    "Scammers entering bank branches",
+    "The use of AI and machine learning in fraud detection",
+    "The need for better scam prevention programs and industry-wide collaboration",
+    "In-person scams and sextortion"
+    "Glitches in the system"
+  ],
+  "names": [
+    "Hayley Windham",
+    "Karen Boyer",
+    "Aaron West",
+    "Ian Mitchell",
+    "Ross",
+    "David Miamon",
+    "Gary Warner",
+    "Gavin Guffey",
+    "Brandon Guffey",
+    "McMaster",
+     "Lawell",
+    "Johnson"
+  ],
+  "companies": [
+    "Banking on Fraudology",
+    "U.S. Postal Service",
+    "Centerlink",
+    "Chase",
+    "Fidelity",
+    "NBC",
+    "Apple",
+    "Spotify",
+    "FBI",
+  ],
+  "acronyms": [
+    "AI",
+    "FI",
+    "DMV",
+    "ACH",
+    "POS",
+    "CFPB",
+    "NACHA"
+  ],
+  "fraud_tips": [
+    "Empower frontline teams to handle fraud alerts and have uncomfortable conversations.",
+    "Train frontline staff to recognize and address abnormalities in transactions.",
+    "Take customer claims to financial explotation seriously",
+    "Banks should ensure programs are functioning so that in the event that something like that is attempted against them, they are able to react effectively",
+    "Ask customers what they are going to do with large withdrawls"
+  ],
+  "tactics": [
+    "Mail theft",
+    "Scams targeting humans (weakest link)",
+    "Scammers entering branches",
+    "Using fake IDs",
+    "Impersonation",
+    "SIM swapping",
+    "Exploiting glitches in bank systems",
+    "Sextortion",
+    "Deepfakes",
+    "In person scamming"
+  ]
+}

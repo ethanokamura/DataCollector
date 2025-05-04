@@ -1,0 +1,48 @@
+{
+  "title": "01225417-D321-4207-BE60-B0035A6F98C8",
+  "important_topics": [
+        "First-party synthetic fraud",
+        "Synthetic identity fraud",
+        "Bust out technique",
+        "Generative AI in fraud",
+        "Liveness tests",
+        "Check fraud",
+        "Fraud prevention",
+        "Stolen PII",
+        "Online fraud ecosystem",
+        "Fraud trends and red flags"
+      ],
+  "names": [
+        "Hayley Windham",
+        "David Maimon",
+        "Frank McKenna"
+      ],
+  "companies": [
+        "Centerlink",
+        "Ohio State University",
+        "University of Maryland",
+        "Apple",
+        "Spotify",
+        "Square"
+      ],
+  "acronyms": [
+        "PII",
+        "AI"
+      ],
+  "fraud_tips": [
+        "Monitor fraudster tactics to respond effectively.",
+        "Deeply understand fraud schemes like synthetic identity fraud.",
+        "Read and learn more about synthetic fraud.",
+        "Look at fraud cases and try to think about those cases",
+        "Verify identity by collecting information from databases and look for the existence of the identity in the past"
+      ],
+  "tactics": [
+        "Using stolen PII to create synthetic identities.",
+        "Grooming synthetic identities over time to build credit.",
+        "Exploiting bust-out techniques with synthetic identities.",
+        "Creating synthetic companies to obtain larger loans.",
+        "Using money transfer platforms to mask fraudulent transactions.",
+        "Bypassing liveness tests with AI-generated videos.",
+        "Committing check fraud with synthetic identities."
+      ]
+}
