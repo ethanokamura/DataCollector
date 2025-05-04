@@ -1,55 +1,19 @@
-# Information Processor
-This application allows us to process large quantities of diverse data and convert them into a uniform, easy to use, format.
+# Data Collector
+The aim of this program is to parse data from a wide range of data sets.
 
----
+In the current implementation, we have the following workflow:
+1. MP3 -> Text
+2. Text -> JSON
 
-## Collecting Youtube Videos
-To download YouTube videos, I decided to use `pytube` which is a "genuine, lightweight, dependency-free Python library" according to the docs.
+## Audio to Text
+To convert the audio to text, we are using AssemblyAI due to its generous free tier as well as its fast and effective ability to transcribe audio files.
 
----
+## Text to JSON
+To retrieve the specific data we want from the given text files, we are feeding the text files with a prompt into Google's Gemini API.
 
-## 1. Convert Video to Audio
-To convert video files into a native audio format, we are using a combination of the `moviepy` and `imageio` libraries.
-
-We use `moviepy` for the conversions themselves and `imageio` to provide a simple and reliable ffmpeg wrapper for working with video files.
-
-After the videos have been converted, we place the new audio files inside our audio file directory. Here, they wait to be transcribed.
-
----
-
-## 2. Transcribe Audio to Text
-Once we have our audio files prepared, we now need to convert the audio to text
-
-Using AssemblyAI, we are able to use their generous API to transcribe large amounts of audio files.
-
-For the purpose of this application, we want all of our data in a text format.
-
-Once converted, the text files are placed in the text file directory to await analysis.
-
----
-
-## 3. Convert HTML to Text (Optional)
-To allow us to intake as much data as possible, we have set up conversion of HTML files into plain text. This allows us to use very simple webscraping techniques to gather large amounts of data from the web.
-
-Using the linux command `html2text`, we are able to easily convert the inner HTML of these files to plain text.
-
-Once converted, the text files are placed in the text file directory to await analysis.
-
----
-
-## 4. Analyze and Format Data (Text Files)
-
----
-
-## Installation
-
-Ensure you have `python` installed on your machine.
-
-Then install the following packages:
+## Getting Started
+To run this on your own, you will need to install the following packages:
 ```sh
-python -m pip install git+https://github.com/pytube/pytube
-pip install moviepy
-pip install imageio-ffmpeg
+pip install assemblyai
+pip install -q -U google-genai
 ```
-
-
