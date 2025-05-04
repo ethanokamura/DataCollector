@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
+
 client = genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
 aai.settings.api_key = os.getenv('ASSEMBLY_AI_API_KEY')
-
 
 # transcribe audio using AssemblyAI
 def transcribe_audio(file, dir_path):
@@ -17,14 +17,11 @@ def transcribe_audio(file, dir_path):
   transcript = aai.Transcriber(config=config).transcribe(dir_path)
   if transcript.status == "error":
     raise RuntimeError(f"Transcription failed: {transcript.error}")
-  
   # Move the file
   shutil.move(dir_path, "./audio-complete/")
   print("moved old file to ./audio-complete directory")
-
   # Create new path
   new_path = "./text/" + file + ".txt"
-
   # Write to file
   text_file = open(new_path, "x")
   text_file.write(transcript.text)
@@ -66,43 +63,16 @@ def parse_text(file, dir_path):
       'response_mime_type': 'application/json',
     }
   )
-
   # Move the file
   shutil.move(dir_path, "./text-complete/")
   print("moved old file to ./text-complete directory")
-
   # Create new path
   new_path = "./parsedText/" + file + ".json"
-  
   # Write to new file
   complete_file = open(new_path, "x")
   complete_file.write(response.text)
   complete_file.close()
   return new_path
-
-# def process_audio_files(folder_path):
-#   try:
-#     for filename in os.listdir(folder_path):
-#       file_path = os.path.join(folder_path, filename)
-#       if os.path.isfile(file_path):  # Check if it's a file
-#         new_path = transcribe_audio(filename, file_path)
-#         print("new transcription found at " + new_path)
-#   except FileNotFoundError:
-#     print(f"Error: Folder not found: {folder_path}")
-#   except Exception as e:
-#     print(f"An error occurred: {e}")
-
-def process_text_files(folder_path):
-  try:
-    for filename in os.listdir(folder_path):
-      file_path = os.path.join(folder_path, filename)
-      if os.path.isfile(file_path):  # Check if it's a file
-        new_path = parse_text(filename, file_path)
-        print("new JSON object found at " + new_path)
-  except FileNotFoundError:
-    print(f"Error: Folder not found: {folder_path}")
-  except Exception as e:
-    print(f"An error occurred: {e}")
 
 def build_dataset(folder_path):
   try:
@@ -110,19 +80,15 @@ def build_dataset(folder_path):
       file_path = os.path.join(folder_path, filename)
       if os.path.isfile(file_path):
         file = os.path.basename(filename).split('.')[0]
-        new_path = transcribe_audio(file, file_path)
-        print("new text @ " + new_path)
-        if os.path.isfile(new_path):
-          new_path = parse_text(file, new_path)
-          print("new JSON @ " + new_path)
+        text_path = transcribe_audio(file, file_path)
+        print("new text @ " + text_path)
+        if not os.path.isfile(text_path):
+          raise Exception("invalid path")
+        complete_path = parse_text(file, text_path)
+        print("new JSON @ " + complete_path)
   except FileNotFoundError:
     print(f"Error: Folder not found: {folder_path}")
   except Exception as e:
     print(f"An error occurred: {e}")
 
-def build():
-  # Parse Text
-  build_dataset("./audio")
-  # process_text_files("./text")
-
-build()
+build_dataset("./audio")
